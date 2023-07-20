@@ -39,7 +39,15 @@ public class MainActivity2 extends AppCompatActivity {
         }
     }
 
+<<<<<<< HEAD
     public void siguiente (View View){
         Intent siguiente = new Intent(this,ProfileuserActivity.class);
         startActivity(siguiente);}
+=======
+    public void userprofile(View view){
+        Intent i = new Intent(this, ProfileuserActivity.class);
+        startActivity(i);
+    }
+
+>>>>>>> ad92c2fb09b4e45d5072428fa393d569df0459d1
 }

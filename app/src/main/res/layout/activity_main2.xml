@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-    android:background="@mipmap/backgraund">
+    android:background="@mipmap/backgraund"
+    android:onClick="ingresar"
+    tools:context=".MainActivity2">
 
     <RadioGroup
         android:layout_width="145dp"
@@ -77,8 +78,13 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="112dp"
         android:onClick="siguiente"
+=======
+        android:layout_marginBottom="180dp"
+        android:onClick="userprofile"
+>>>>>>> ad92c2fb09b4e45d5072428fa393d569df0459d1
         android:text="@string/btn2"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
