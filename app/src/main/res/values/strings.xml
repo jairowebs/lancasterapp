@@ -8,5 +8,6 @@
     <string name="txt1">Ingrese su usuario</string>
     <string name="txt2">Ingrese su contraseña</string>
     <string name="saludo">Hola</string>
-    <string name="username">Patricia Riquett</string>
+    <string name="username">Patricia</string>
+    <string name="adminname">Arlin</string>
 </resources>
