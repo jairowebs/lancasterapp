@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lancaster.app</string>
+    <string name="tv1">BIENVENIDO</string>
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="TextView">inicio de sesion</string>
+    <string name="btn2">INGRESAR</string>
+    <string name="txt1">ingrese su usuario</string>
+    <string name="txt2">ingrese su contraseña</string>
+</resources>
