@@ -25,7 +25,7 @@
     <Button
         android:id="@+id/tv1"
         android:layout_width="184dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:onClick="siguiente"
         android:text="@string/tv1"
