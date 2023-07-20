@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-    android:background="@mipmap/backgraund">
+    android:background="@mipmap/backgraund"
+    android:onClick="ingresar"
+    tools:context=".MainActivity2">
 
     <ImageView
         android:id="@+id/img1"
@@ -17,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/colegio" />
+        app:srcCompat="@mipmap/logocolegio" />
 
     <EditText
         android:id="@+id/txt1"
@@ -30,35 +31,36 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/txt2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
         android:ems="10"
         android:hint="@string/txt2"
         android:inputType="textPassword"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="312dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="180dp"
-        android:onClick="ingresar"
+        android:layout_marginBottom="52dp"
+        android:onClick="decidir"
         android:text="@string/btn2"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2"
+        app:layout_constraintVertical_bias="0.242" />
 
     <TextView
         android:id="@+id/textView"
@@ -69,8 +71,33 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/txt1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img1" />
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/white_background"
+        android:text="@string/radioButton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/white_background"
+        android:text="@string/radioButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
