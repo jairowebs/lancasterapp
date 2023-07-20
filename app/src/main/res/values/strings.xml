@@ -4,12 +4,11 @@
 
     <string name="title_activity_main2">MainActivity2</string>
     <string name="TextView">Inicio de Sesión</string>
-    <string name="btn2">INGRESAR</string>
+    <string name="btn1">INGRESO FAMILIAS</string>
+    <string name="btn2">INGRESO EDUCADORES</string>
     <string name="txt1">Ingrese su usuario</string>
     <string name="txt2">Ingrese su contraseña</string>
-    <string name="radioButton1">familias</string>
-    <string name="radioButton2">educadores</string>
-    <string name="saludo">Hola</string>
+    <string name="reservado">todos los derechos reservados</string>
 
     <string name="username">Patricia</string>
 
