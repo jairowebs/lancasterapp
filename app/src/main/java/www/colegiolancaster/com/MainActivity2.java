@@ -2,6 +2,7 @@
 
 package www.colegiolancaster.com;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -36,4 +37,10 @@ if (nombre.length()!= 0 && contrasena.length() != 0){
     Toast.makeText(this,"ingresando.....",Toast.LENGTH_LONG).show();
         }
     }
+
+    public void userprofile(View view){
+        Intent i = new Intent(this, ProfileuserActivity.class);
+        startActivity(i);
+    }
+
 }
