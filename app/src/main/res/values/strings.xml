@@ -8,5 +8,8 @@
     <string name="txt1">Ingrese su usuario</string>
     <string name="txt2">Ingrese su contraseña</string>
     <string name="saludo">Hola</string>
+    <string name="radioButton1">familias</string>
+    <string name="radioButton2">educadores</string>
+
     <string name="username">Patricia Riquett</string>
 </resources>
