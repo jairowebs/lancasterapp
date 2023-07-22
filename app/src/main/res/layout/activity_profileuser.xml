@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E8E8F9"
+    android:contentDescription="Logout Button"
     tools:context=".ProfileuserActivity">
 
     <ScrollView
@@ -27,26 +28,13 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="30dp"
-                    android:layout_height="32dp"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginEnd="8dp"
-                    android:onClick="logout"
-                    android:src="@drawable/logout"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="80dp"
                     android:layout_height="73dp"
                     android:layout_margin="24dp"
                     android:layout_marginStart="160dp"
                     android:layout_marginTop="24dp"
-                    android:layout_marginEnd="94dp"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                    android:contentDescription="photoprofile"
                     app:layout_constraintStart_toEndOf="@+id/textView2"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/profile" />
@@ -75,6 +63,16 @@
                     app:layout_constraintStart_toStartOf="@+id/textView"
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+                <ImageButton
+                    android:id="@+id/LogoutBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="350dp"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/logout" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <EditText
@@ -98,7 +96,8 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
-                android:background="@drawable/purple_background">
+                android:background="@drawable/purple_background"
+                android:contentDescription="Logout Button">
 
 
                 <ImageView
@@ -357,6 +356,10 @@
                                 android:id="@+id/imageView4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
                                 app:srcCompat="@drawable/maths" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -417,6 +420,10 @@
                                 android:id="@+id/imageView5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
                                 app:srcCompat="@drawable/science" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,40 +21,38 @@
         app:srcCompat="@mipmap/logocolegio" />
 
     <EditText
-        android:id="@+id/emailLogin"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="53dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="250dp"
         android:autofillHints="username"
         android:ems="10"
-        android:hint="@string/userEmail"
+        android:hint="@string/emailregister"
         android:inputType="textEmailAddress"
-
         android:textColor="#9C9C9D"
-        android:textColorHint="#706A6A"
+        android:textColorHint="#686464"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/passLogin"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="330dp"
-        android:layout_marginEnd="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="80dp"
         android:autofillHints="password"
         android:ems="10"
-        android:hint="@string/userPass"
+        android:hint="@string/passregister"
         android:inputType="textPassword"
         android:textColor="#9C9C9D"
-        android:textColorHint="#706A6A"
+        android:textColorHint="#686464"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/img1"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/educadoresLogin"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 
     <Button
         android:id="@+id/educadoresLogin"
