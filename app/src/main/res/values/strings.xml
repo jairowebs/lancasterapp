@@ -3,14 +3,24 @@
     <string name="tv1">BIENVENIDO</string>
 
     <string name="title_activity_main2">MainActivity2</string>
-    <string name="TextView">Inicio de Sesión</string>
+    <string name="LoginText">Inicio de Sesión</string>
     <string name="btn1">INGRESO FAMILIAS</string>
     <string name="btn2">INGRESO EDUCADORES</string>
-    <string name="txt1">Ingrese su usuario</string>
-    <string name="txt2">Ingrese su contraseña</string>
-    <string name="reservado">todos los derechos reservados</string>
+    <string name="userEmail">Ingrese su usuario</string>
+    <string name="userPass">Ingrese su contraseña</string>
+    <string name="reservado">Todos los derechos reservados</string>
     <string name="saludo">Hola!</string>
     <string name="username">Patricia</string>
     <string name="adminname">Arlin</string>
     <string name="logoname">Colegio Lancaster</string>
+    <string name="registername">Registro</string>
+
+    //strings formulario registro
+    <string name="nameregister">Nombre</string>
+    <string name="lastnameregister">Apellido</string>
+    <string name="emailregister">Escribe tu email</string>
+    <string name="passregister">Escribe una contraseña</string>
+    <string name="btnregister">Registrarse</string>
+    <string name="loginClick">Haz click para loguearte</string>
+    <string name="registerClick"> Haz click para Registrarte</string>
 </resources>
