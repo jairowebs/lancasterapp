@@ -14,6 +14,17 @@
     <string name="adminname">Arlin</string>
     <string name="logoname">Colegio Lancaster</string>
     <string name="registername">Registro</string>
+    <string name="Buscar">Buscar...</string>
+    <string name="Semanadeexamenes">Semana de examenes</string>
+    <string name="Recordatorio">Recordatorio</string>
+
+    //Descriptions
+    <string name="profilephoto">photo-profile</string>
+    <string name="LogoutButton">Logout-Btn</string>
+    <string name="MessageIcon">Message-Icon</string>
+    <string name="MessageText">Message-Text</string>
+    <string name="Icons">icon</string>
+    <string name="Text">Text</string>
 
     //strings formulario registro
     <string name="nameregister">Nombre</string>
@@ -23,4 +34,20 @@
     <string name="btnregister">Registrarse</string>
     <string name="loginClick">Haz click para loguearte</string>
     <string name="registerClick"> Haz click para Registrarte</string>
+    <string name="asistencia">Asistencia</string>
+    <string name="mensajes">Mensajes</string>
+    <string name="horario">Horario</string>
+    <string name="calificaciones">Calificaciones</string>
+    <string name="asignaturas">Asignaturas</string>
+    <string name="ver_m_s">Ver más</string>
+    <string name="matem_ticas">Matemáticas</string>
+    <string name="_3_5">3.5</string>
+    <string name="ciencias">Ciencias</string>
+    <string name="_4_3">4.3</string>
+    <string name="buscar">Buscar...</string>
+    <string name="recordatorio">Recordatorio</string>
+    <string name="semana_de_examenes">Semana de examenes</string>
+    <string name="observador">Observador</string>
+    <string name="filosofia">Filosofia</string>
+    <string name="ingl_s">Inglés</string>
 </resources>

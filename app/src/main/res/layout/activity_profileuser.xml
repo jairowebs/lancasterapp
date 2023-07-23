@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E8E8F9"
-    android:contentDescription="Logout Button"
+    android:contentDescription="@string/LogoutButton"
     tools:context=".ProfileuserActivity">
 
     <ScrollView
@@ -34,7 +34,7 @@
                     android:layout_margin="24dp"
                     android:layout_marginStart="160dp"
                     android:layout_marginTop="24dp"
-                    android:contentDescription="photoprofile"
+                    android:contentDescription="@string/profilephoto"
                     app:layout_constraintStart_toEndOf="@+id/textView2"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/profile" />
@@ -71,21 +71,23 @@
                     android:layout_marginTop="40dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/logout" />
+                    app:srcCompat="@mipmap/logout"
+                    android:contentDescription="@string/Icons"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <EditText
                 android:id="@+id/editTextText3"
+                android:autofillHints="username"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="0dp"
                 android:layout_margin="24dp"
                 android:layout_weight="1"
                 android:background="@drawable/white_background"
                 android:drawableStart="@drawable/search"
                 android:drawablePadding="8dp"
                 android:ems="10"
-                android:hint="Buscar..."
+                android:hint="@string/Buscar"
                 android:inputType="text"
                 android:padding="8dp"
                 android:textColorHint="@color/dark_blue" />
@@ -97,7 +99,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
                 android:background="@drawable/purple_background"
-                android:contentDescription="Logout Button">
+                android:contentDescription="@string/LogoutButton">
 
 
                 <ImageView
@@ -105,6 +107,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
+                    android:contentDescription="@string/Icons"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -115,7 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="24dp"
-                    android:text="Recordatorio"
+                    android:text="@string/Recordatorio"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -128,7 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="60dp"
-                    android:text="Semana de examenes"
+                    android:text="@string/Semanadeexamenes"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -143,6 +146,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="12dp"
+                android:baselineAligned="true"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -164,6 +168,7 @@
                             android:layout_margin="15dp"
                             android:layout_marginEnd="59dp"
                             android:layout_marginBottom="59dp"
+                            android:contentDescription="@string/MessageIcon"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -177,7 +182,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Mensajes"
+                        android:contentDescription="@string/MessageText"
+                        android:text="@string/mensajes"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -202,6 +208,7 @@
                             android:layout_margin="15dp"
                             android:layout_marginEnd="59dp"
                             android:layout_marginBottom="59dp"
+                            android:contentDescription="@string/Icons"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -215,7 +222,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Horario"
+                        android:contentDescription="@string/Text"
+                        android:text="@string/horario"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -240,6 +248,7 @@
                             android:layout_margin="15dp"
                             android:layout_marginEnd="59dp"
                             android:layout_marginBottom="59dp"
+                            android:contentDescription="@string/Icons"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -253,7 +262,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Calificaciones"
+                        android:contentDescription="@string/Text"
+                        android:text="@string/calificaciones"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -278,6 +288,7 @@
                             android:layout_margin="15dp"
                             android:layout_marginEnd="59dp"
                             android:layout_marginBottom="59dp"
+                            android:contentDescription="@string/Icons"
                             android:src="@drawable/ausencia"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -291,7 +302,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Asistencia"
+                        android:contentDescription="@string/Text"
+                        android:text="@string/asistencia"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -309,7 +321,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Asignaturas"
+                    android:contentDescription="@string/Text"
+                    android:text="@string/asignaturas"
                     android:textColor="@color/dark_blue"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -319,7 +332,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Ver más"
+                    android:contentDescription="@string/Text"
+                    android:text="@string/ver_m_s"
                     android:textColor="@color/purple"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -327,6 +341,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:baselineAligned="true"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -343,7 +358,7 @@
                         android:layout_height="wrap_content">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout2"
+                            android:id="@+id/constraintLayout3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
@@ -360,7 +375,8 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/maths" />
+                                app:srcCompat="@drawable/maths"
+                                android:contentDescription="@string/Icons"/>
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -369,10 +385,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="10dp"
-                            android:text="Matemáticas"
+                            android:layout_marginBottom="32dp"
+                            android:text="@string/matem_ticas"
                             android:textColor="#1587FE"
                             android:textSize="16sp"
                             android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
                             app:layout_constraintTop_toTopOf="@+id/constraintLayout2" />
 
@@ -382,9 +401,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="100dp"
                             android:layout_marginTop="2dp"
-                            android:text="3.5"
+                            android:text="@string/_3_5"
                             android:textColor="#797D81"
-                            android:textSize="22dp"
+                            android:textSize="22sp"
                             android:textStyle="bold"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/tcourse_name" />
@@ -407,7 +426,7 @@
                         android:layout_height="wrap_content">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout2"
+                            android:id="@+id/constraintLayout4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
@@ -420,11 +439,13 @@
                                 android:id="@+id/imageView5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:contentDescription="@string/Icons"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/science" />
+                                app:srcCompat="@drawable/science"
+                                />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -432,11 +453,14 @@
                             android:id="@+id/textView11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="16dp"
-                            android:text="Ciencias"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="32dp"
+                            android:text="@string/ciencias"
                             android:textColor="#1587FE"
                             android:textSize="18sp"
                             android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
                             app:layout_constraintTop_toTopOf="@+id/constraintLayout2" />
 
@@ -444,12 +468,13 @@
                             android:id="@+id/textView12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="35dp"
-                            android:text="4.3"
+                            android:layout_marginStart="80dp"
+                            android:text="@string/_4_3"
                             android:textColor="#797D81"
-                            android:textSize="22dp"
+                            android:textSize="22sp"
                             android:textStyle="bold"
-                            app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
