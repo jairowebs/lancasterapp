@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96440362825",
+    "project_id": "lancasterapp-4577a",
+    "storage_bucket": "lancasterapp-4577a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96440362825:android:ca3bd83100f1e8636d1c98",
+        "android_client_info": {
+          "package_name": "www.colegiolancaster.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96440362825-2p6kr4uccsli5ag1ns3h8rfsnkoq849h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd1cpPgFuANpB5yv0RWwm7ATVnPOjB4ZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96440362825-2p6kr4uccsli5ag1ns3h8rfsnkoq849h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
