@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E8E8F9"
+    android:background="@mipmap/vector1"
     tools:context=".ProfileuserActivity">
 
     <ScrollView
@@ -32,12 +32,14 @@
                     android:layout_height="32dp"
                     android:layout_marginTop="50dp"
                     android:layout_marginEnd="8dp"
-                    android:onClick="logout"
+                    android:background="#00FFFFFF"
 
+                    android:onClick="logout"
+                    android:tint="#FFFFFF"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/btn_1" />
+                    app:srcCompat="@drawable/logout" />
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -50,7 +52,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/imageView3"
                     app:layout_constraintStart_toEndOf="@+id/textView2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/btn_1" />
+                    app:srcCompat="@drawable/profile2" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -68,13 +70,15 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
                     android:text="@string/adminname"
                     android:textColor="@color/dark_blue"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView"
                     app:layout_constraintStart_toStartOf="@+id/textView"
-                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    app:layout_constraintVertical_bias="1.0" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -99,7 +103,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
-                android:background="@drawable/purple_background">
+                android:background="@color/design_default_color_secondary_variant">
 
 
                 <ImageView
@@ -358,7 +362,7 @@
                                 android:id="@+id/imageView4"
                                 android:layout_width="58dp"
                                 android:layout_height="52dp"
-                                app:srcCompat="@drawable/art_2"
+                                app:srcCompat="@drawable/filosofia"
                                 tools:layout_editor_absoluteX="-7dp" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -406,7 +410,9 @@
                                 android:id="@+id/imageView5"
                                 android:layout_width="48dp"
                                 android:layout_height="46dp"
-                                app:srcCompat="@drawable/art_1" />
+                                app:srcCompat="@drawable/traduccion"
+                                tools:layout_editor_absoluteX="0dp"
+                                tools:layout_editor_absoluteY="0dp" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
