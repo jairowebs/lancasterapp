@@ -15,7 +15,7 @@ public class ProfileuserActivity extends AppCompatActivity {
     }
 
     public void logout(View view){
-        Intent i = new Intent(this, MainActivity2.class);
+        Intent i = new Intent(this, LoginActivity.class);
         startActivity(i);
     }
 

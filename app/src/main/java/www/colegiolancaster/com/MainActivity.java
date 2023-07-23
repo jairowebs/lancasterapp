@@ -7,7 +7,9 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+
 public class MainActivity extends AppCompatActivity {
+
 
 
     @Override
@@ -16,10 +18,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-public void siguiente (View View){
-    Intent siguiente = new Intent(this,MainActivity2.class);
-    startActivity(siguiente);
-}
+
+    public void Bienvenida(View view){
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
+        finish();
+    }
 
 
 
