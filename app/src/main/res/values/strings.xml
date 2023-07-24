@@ -51,4 +51,17 @@
     <string name="filosofia">Filosofia</string>
     <string name="ingl_s">Inglés</string>
     <string name="logo">logo</string>
+    <string name="mis_calificaciones">Mis calificaciones</string>
+    <string name="periodo">Periodo</string>
+    <string name="_1_periodo">1° Periodo</string>
+    <string name="_2_periodo">2° Periodo</string>
+    <string name="_3_periodo">3° Periodo</string>
+    <string name="_4_8">4.8</string>
+    <string name="_4_0">4.0</string>
+    <string name="espa_ol">Español</string>
+    <string name="_3_8">3.8</string>
+    <string name="naturales">Naturales</string>
+    <string name="edu_fisica">Edu. Fisica</string>
+    <string name="_4_5">4.5</string>
+    <string name="notas" >Notas</string>
 </resources>
