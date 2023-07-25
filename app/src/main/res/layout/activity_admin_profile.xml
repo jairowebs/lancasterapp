@@ -35,7 +35,6 @@
                     android:background="#00FFFFFF"
 
                     android:onClick="logout"
-                    android:tint="#FFFFFF"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
                     app:layout_constraintTop_toTopOf="parent"
