@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E8E8F9"
+    android:background="@mipmap/mrosa"
     tools:context=".ProfileuserActivity">
 
     <ScrollView
@@ -37,7 +37,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/art_1" />
+                    app:srcCompat="@drawable/logout" />
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -99,7 +99,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
-                android:background="@drawable/purple_background">
+                android:background="@android:drawable/divider_horizontal_bright">
 
 
                 <ImageView
@@ -179,6 +179,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
+                        android:background="#A6FFFFFF"
                         android:text="Mensajes"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
@@ -218,6 +219,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="Horario"
+                        android:background="#A6FFFFFF"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -256,6 +258,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="Calificaciones"
+                        android:background="#A6FFFFFF"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -294,6 +297,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="Asistencia"
+                        android:background="#A6FFFFFF"
                         android:textAlignment="center"
                         android:textColor="@color/dark_blue"
                         android:textStyle="bold" />
@@ -321,6 +325,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#00FFFEFE"
                     android:text="Ver más"
                     android:textColor="@color/purple"
                     android:textStyle="bold" />
