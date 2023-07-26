@@ -24,7 +24,7 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="20dp"
         android:autofillHints="username"
         android:ems="10"
         android:hint="@string/txt1"
@@ -33,7 +33,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/txt2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintHorizontal_bias="0.389"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -47,9 +47,9 @@
         android:textColor="#9C9C9D"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintHorizontal_bias="0.389"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteY="413dp" />
 
     <Button
         android:id="@+id/button3"
@@ -68,14 +68,15 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginBottom="44dp"
         android:text="@string/TextView"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/txt1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img1" />
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:layout_constraintVertical_bias="0.943" />
 
     <Button
         android:id="@+id/button2"
